@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>センター薬局 桶川店 - 地域に根ざしたかかりつけ薬局</title>
+    <meta name="description" content="埼玉県桶川市の調剤薬局「センター薬局 桶川店」。地域医療への取り組み、在宅医療、最新のクラウド型薬歴システム等の設備で、皆様の健康をサポートします。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🌿</span>
+                <div class="logo-text">
+                    <span class="logo-en">CENTER PHARMACY</span>
+                    <span class="logo-ja">センター薬局 桶川店</span>
+                </div>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">特徴</a></li>
+                    <li><a href="#services" class="nav-link">サービス</a></li>
+                    <li><a href="#access" class="nav-link">アクセス</a></li>
+                </ul>
+            </nav>
+            <div class="header-contact hidden-mobile">
+                <a href="tel:048-782-6141" class="btn-tel">📞 048-782-6141</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg">
+                <!-- 
+                  【画像差し替え手順】
+                  実際の薬局の外観写真を使用する場合は、以下の `src="images/hero.png"` を書き換えてください。
+                  例: ご自身の写真を `center-pharmacy/images/` フォルダの中に `real-exterior.jpg` として保存し、
+                  `src="images/real-exterior.jpg"` に変更するだけで画像が差し替わります。
+                -->
+                <img src="images/exterior.jpg" alt="センター薬局 桶川店の外観">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <div class="glass-panel fade-in-up">
+                    <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+                        <span class="badge" style="margin-bottom: 0;">かかりつけ薬局</span>
+                        <span class="badge" style="margin-bottom: 0; background-color: var(--primary-color); color: white;">訪問服薬指導</span>
+                        <span class="badge" style="margin-bottom: 0; background-color: #06C755; color: white;">公式LINE対応</span>
+                        <span class="badge" style="margin-bottom: 0; background-color: var(--secondary-color); color: white;">駐車場完備</span>
+                    </div>
+                    <h1 class="hero-title">安心と信頼の医療を<br><span class="highlight">心からの笑顔とともに</span></h1>
+                    <p class="hero-subtitle">いつでも気軽に相談できる、あなたの街のパートナーです。最新の設備と経験豊富なスタッフがお待ちしております。</p>
+                    <div class="hero-actions">
+                        <a href="#access" class="btn btn-primary">営業時間・アクセス</a>
+                        <a href="tel:048-782-6141" class="btn btn-secondary visible-mobile">電話で問い合わせる</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span class="scroll-text">Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <section id="about" class="section about gradient-bg">
+            <div class="container">
+                <div class="section-header animate-on-scroll fade-in-up">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="section-subtitle">センター薬局 桶川店について</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card animate-on-scroll fade-in-up">
+                        <div class="card-icon-wrapper">
+                            <span class="card-icon">🏥</span>
+                        </div>
+                        <h3>地域に根ざした医療</h3>
+                        <p>近隣医療機関の処方箋はもちろん、地域の皆様の健康相談窓口として頼れる存在を目指しています。ご自宅や施設へ薬剤師が伺う「訪問服薬指導（在宅医療）」にも力を入れています。</p>
+                    </div>
+                    <div class="about-card animate-on-scroll fade-in-up delay-1">
+                        <div class="card-icon-wrapper">
+                            <span class="card-icon">💻</span>
+                        </div>
+                        <h3>最新設備の導入</h3>
+                        <p>自動分包機やクラウド型薬歴システムなどの最新設備を導入。業務効率化により患者様をお待たせする時間を短縮し、より丁寧な服薬指導を実現しています。</p>
+                    </div>
+                    <div class="about-card animate-on-scroll fade-in-up delay-2">
+                        <div class="card-icon-wrapper">
+                            <span class="card-icon">👨‍⚕️</span>
+                        </div>
+                        <h3>専門的なサポート</h3>
+                        <p>お薬の飲み合わせや副作用への不安など、どんなことでもご相談ください。経験豊富な薬剤師が、一人ひとりの患者様に寄り添ったサポートを提供します。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="services-content">
+                    <div class="services-text animate-on-scroll fade-in-left">
+                        <span class="sub-heading">Our Services</span>
+                        <h2 class="section-title text-left">スムーズな調剤と<br>安心のフォローアップ</h2>
+                        <p class="services-desc">当薬局では、患者様がストレスなくお薬を受け取れるよう、様々な取り組みを行っています。処方箋の事前ネット受付にも対応しています。</p>
+                        <ul class="check-list">
+                            <li><span>✓</span> 全国すべての医療機関の処方箋を受付</li>
+                            <li><span>✓</span> 薬剤師がご自宅へ直接伺う訪問服薬指導</li>
+                            <li><span>✓</span> 一包化による飲み忘れ防止サポート</li>
+                            <li><span>✓</span> お薬手帳の活用と丁寧な指導</li>
+                            <li><span>✓</span> 車椅子の方も安心のバリアフリー設計</li>
+                        </ul>
+                    </div>
+                    <div class="services-visual animate-on-scroll fade-in-right">
+                        <div class="floating-card primary-card">
+                            <div class="icon-circle">☁️</div>
+                            <h4>クラウド型薬歴システム</h4>
+                            <p>過去の服薬履歴やアレルギー情報を等、データを安全かつ瞬時に確認。より正確でスピーディーな調剤を実現します。</p>
+                        </div>
+                        <div class="floating-card secondary-card">
+                            <div class="icon-circle">💊</div>
+                            <h4>自動分包機</h4>
+                            <p>清潔に、正確に。調剤の待ち時間を大幅に削減し、より多くの時間を患者様との対話にあてています。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="access" class="section info bg-light">
+            <div class="container">
+                <div class="section-header animate-on-scroll fade-in-up">
+                    <h2 class="section-title">Store Info</h2>
+                    <p class="section-subtitle">店舗情報・アクセス</p>
+                </div>
+                <div class="info-container animate-on-scroll fade-in-up">
+                    <div class="info-details">
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div class="info-text">
+                                <h4>所在地</h4>
+                                <p>〒363-0028<br>埼玉県桶川市下日出谷西3-3-4</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <div class="info-text">
+                                <h4>電話番号</h4>
+                                <p><a href="tel:048-782-6141" class="tel-link">048-782-6141</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📠</div>
+                            <div class="info-text">
+                                <h4>FAX番号</h4>
+                                <p>048-782-6143</p>
+                            </div>
+                        </div>
+                        <div class="info-item line-card">
+                            <div class="info-icon" style="color: #06C755;">💬</div>
+                            <div class="info-text">
+                                <h4>公式LINE</h4>
+                                <p style="font-weight: 700; color: #333;">@856mzzbi</p>
+                                <div class="line-qr-wrapper">
+                                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://line.me/R/ti/p/@856mzzbi" alt="LINE QR Code" width="120" height="120">
+                                </div>
+                                <a href="https://line.me/R/ti/p/@856mzzbi" class="btn btn-line" target="_blank" rel="noopener">LINEで友だち追加</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">🚗</div>
+                            <div class="info-text">
+                                <h4>アクセス</h4>
+                                <p>JR高崎線「桶川駅」から車で約10分。駐車場完備。</p>
+                            </div>
+                        </div>
+                        <div class="info-item hours-wrapper">
+                            <div class="info-icon">⏰</div>
+                            <div class="info-text">
+                                <h4>営業時間</h4>
+                                <div class="table-responsive">
+                                    <table class="hours-table">
+                                        <thead>
+                                            <tr>
+                                                <th>曜日</th>
+                                                <th>月</th>
+                                                <th>火</th>
+                                                <th>水</th>
+                                                <th>木</th>
+                                                <th>金</th>
+                                                <th>土</th>
+                                                <th>日・祝</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>9:00〜13:30</td>
+                                                <td>○</td>
+                                                <td>○</td>
+                                                <td>○</td>
+                                                <td>○</td>
+                                                <td>○</td>
+                                                <td>☆</td>
+                                                <td rowspan="2" class="closed">休</td>
+                                            </tr>
+                                            <tr>
+                                                <td>14:30〜18:00</td>
+                                                <td>○</td>
+                                                <td>○</td>
+                                                <td>○</td>
+                                                <td>○</td>
+                                                <td>○</td>
+                                                <td class="closed">休</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p class="hours-note">※土曜日は 9:00〜13:00 の営業となります。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-map glass-effect">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1151.705663737084!2d139.5401923!3d35.9926442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018cf41f8bfc329%3A0x6d36e8df81c8188!2z44CSMzYzLTAwMjgg5Z-8546J55yM5qG25bed5biC5LiL5pel5Ye66LC36KW_77yT5LiB55uu77yT4oiS77yU!5e0!3m2!1sja!2sjp!4v1714567890123!5m2!1sja!2sjp" width="100%" height="100%" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="review-banner animate-on-scroll fade-in-up">
+                    <div class="review-text">
+                        <h3><span class="review-icon">⭐</span>サービス向上のため、口コミをご投稿ください</h3>
+                        <p>当薬局をご利用いただきありがとうございます。皆様からの貴重なご意見・ご感想が、私たちの励みになり、より良いサービス提供へとつながります。スマートフォン等から、ぜひGoogleマップの口コミ投稿にご協力をお願いいたします。</p>
+                        <!-- ※リンクはGoogleマップのセンター薬局桶川店ページに繋がります -->
+                        <a href="https://www.google.com/maps?q=センター薬局桶川店" target="_blank" rel="noopener" class="btn btn-primary">Googleで口コミを書く</a>
+                    </div>
+                    <div class="review-qr">
+                        <div class="qr-box">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E8%96%AC%E5%B1%80%E6%A1%B6%E5%B7%9D%E5%BA%97" alt="Google口コミ投稿用 QRコード" width="120" height="120">
+                        </div>
+                        <p class="qr-text">スマホで読み取る</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🌿</span>
+                        <div class="logo-text">
+                            <span class="logo-ja">センター薬局 桶川店</span>
+                            <span class="logo-en">Center Pharmacy Okegawa</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">地域医療に貢献する、あなたの街のかかりつけ薬局</p>
+                </div>
+                <div class="footer-links">
+                    <h4>メニュー</h4>
+                    <ul>
+                        <li><a href="#about">特徴</a></li>
+                        <li><a href="#services">サービス</a></li>
+                        <li><a href="#access">アクセス・営業時間</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>お問い合わせ</h4>
+                    <p>〒363-0028<br>埼玉県桶川市下日出谷西3-3-4</p>
+                    <p class="footer-tel">TEL: 048-782-6141</p>
+                    <p class="footer-contact-item">FAX: 048-782-6143</p>
+                    <p class="footer-contact-item" style="margin-top: 8px;">公式LINE: @856mzzbi</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Center Pharmacy Okegawa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
