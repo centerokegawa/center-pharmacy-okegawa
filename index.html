@@ -188,44 +188,65 @@
                             <div class="info-icon">⏰</div>
                             <div class="info-text">
                                 <h4>営業時間</h4>
-                                <div class="table-responsive">
-                                    <table class="hours-table">
-                                        <thead>
-                                            <tr>
-                                                <th>曜日</th>
-                                                <th>月</th>
-                                                <th>火</th>
-                                                <th>水</th>
-                                                <th>木</th>
-                                                <th>金</th>
-                                                <th>土</th>
-                                                <th>日・祝</th>
-                                            </tr>
-                                        </thead>
+                                <div class="pc-hours">
+                                    <div class="table-responsive">
+                                        <table class="hours-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>曜日</th>
+                                                    <th>月</th>
+                                                    <th>火</th>
+                                                    <th>水</th>
+                                                    <th>木</th>
+                                                    <th>金</th>
+                                                    <th>土</th>
+                                                    <th>日・祝</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>9:00〜13:30</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>☆</td>
+                                                    <td rowspan="2" class="closed">休</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>14:30〜18:00</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td class="closed">休</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p class="hours-note">※土曜日は 9:00〜13:00 の営業となります。</p>
+                                </div>
+                                
+                                <div class="mobile-hours">
+                                    <table class="hours-table hours-table-vertical">
                                         <tbody>
                                             <tr>
-                                                <td>9:00〜13:30</td>
-                                                <td>○</td>
-                                                <td>○</td>
-                                                <td>○</td>
-                                                <td>○</td>
-                                                <td>○</td>
-                                                <td>☆</td>
-                                                <td rowspan="2" class="closed">休</td>
+                                                <th>月〜金</th>
+                                                <td>9:00〜13:30<br>14:30〜18:00</td>
                                             </tr>
                                             <tr>
-                                                <td>14:30〜18:00</td>
-                                                <td>○</td>
-                                                <td>○</td>
-                                                <td>○</td>
-                                                <td>○</td>
-                                                <td>○</td>
-                                                <td class="closed">休</td>
+                                                <th>土</th>
+                                                <td>9:00〜13:00<br><span class="closed" style="background: none; font-size: 0.85rem; padding: 0;">午後休業</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th>日・祝</th>
+                                                <td class="closed" style="background: #fef2f2;">終日休業</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
-                                <p class="hours-note">※土曜日は 9:00〜13:00 の営業となります。</p>
                             </div>
                         </div>
                     </div>
